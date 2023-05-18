@@ -5,9 +5,9 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "server": "nodemon server",
-    "client": "npm start --prefix client",
-    "both": "concurrently \"npm run server\" \"npm run client\" "
+    "server": "nodemon server.js",
+    "client": "npm start --prefix ./client",
+    "both": "concurrently \"npm start\" \"npm run client\" "
   },
   "author": "mahesh",
   "license": "ISC",
